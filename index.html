@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Concesionario">
+  <title>Concesionario</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>El Taller Del Automóvil</Table> </h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#modelos">Modelos</a></li>
+          <li><a href="#región">Región</a></li>
+          <li><a href="#precio">Precio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos</h2>
+      <p>Este es uno de los coches que mas se vende en nuestro concesionario por su calidad y precio.</p>
+      <figure>
+        <img src="C:\Users\IvánSánchezCalvo\OneDrive - SUMMA Formación Profesional\Escritorio\seat.leon.png" alt="Estudiantes en clase de informática">
+        <figcaption>Seat Leon</figcaption>
+      </figure>
+    </section>
+
+    <section id="modelos">
+      <h2>Información</h2>
+      
+      <article>
+        <h3>Taller</h3>
+        <p>El taller esta situado en Madrid, con 6 trabjadores profesionales que arreglan cual quier error.</p>
+      </article>
+      <article>
+        <h3>Concesionario</h3>
+        <p>Cuenta con cualquier variedad de modelo y marca, puedes visitarlo y veras todos los modelos con un asistente que le ayudara a conseguir lo que esta buscando.</p>
+      </article>
+      <article>
+        <h3>Precios</h3>
+        <p>Los precios son los mas asequibles a los modelos de los coches y todos inclullen un seguro de 6 meses como minimo.</p>
+      </article>
+    
+      <table>
+        <caption>Tabla de Precios</caption>
+        <thead>
+          <tr>
+            <th>Gama</th>
+            <th>Garantia</th>
+            <th>Precio de seguro al mes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Baja</td>
+            <td>6 meses</td>
+            <td>14€</td>
+          </tr>
+          <tr>
+            <td>Media</td>
+            <td>6 meses</td>
+            <td>22€</td>
+          </tr>
+          <tr>
+            <td>Alta</td>
+            <td>1 año</td>
+            <td>128€</td>
+          </tr>
+          <tr>
+            <td>Exclusivo</td>
+            <td>3 años</td>
+            <td>297€</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="noticias">
+      <h2>Últimas Noticias</h2>
+      <article>
+        <h3>Nuevos modelos</h3>
+        <p>Cada modelo nuevo que sale de coches tiene mas actualizaciones tecnologicas que ayudan a la conducion y a la comodidad del conductor.</p>
+        <a href="https://www.motor.es/nuevos-modelos-coches">Leer más</a>
+      </article>
+    </section>
+
+    <section id="multimedia">
+      <h2>Video de Presentación</h2>
+      <video controls>
+        <source src="C:\Users\IvánSánchezCalvo\OneDrive - SUMMA Formación Profesional\Escritorio\Presentación del vehículo.mp4"type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="enviar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="faq">
+      <h2>Preguntas Frecuentes</h2>
+      <details>
+        <summary>¿Cuántos kilómetros tiene el coche?</summary>
+        <p>Los kilómetros recorridos te darán una idea del desgaste del vehículo y su posible vida útil restante. Generalmente, un coche con menos de 100,000 km se considera en mejor estado.</p>
+      </details>
+      <details>
+        <summary>¿En qué estado está el coche usado?</summary>
+        <p>Te daremos los papeles del coche para que veas todos los propietarios que ha tenido el vehiculo y podras ver tambien que accidentes ha tenido y los daños sufridos.</p>
+      </details>
+      <details>
+        <summary>¿El seguro que cubre?</summary>
+        <p>el seguro nada mas compralo depende de la gama cubre mas tiempo o menos pero cubre todo los accidentes o errores que hayan sucedido si no han sido echos aposta. </p>
+      </details>
+    </section>
+  </main>
+
+  <aside>
+    <h2>Otros concesionarios de nuestra empresa</h2>
+    <ul>
+      <li><a href="https://www.yamovil.es/" target="_blank">Yamovil</a></li>
+      <li><a href="https://www.jarmauto.es/" target="_blank">Jarmauto</a></li>
+      <li><a href="https://www.gyata.com/" target="_blank">Gyata</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 Concesionario El Taller Del Automóvil. Todos los derechos reservados.</p>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#modelos"s>Modelos</a></li>
+        <li><a href="#región">Región</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
