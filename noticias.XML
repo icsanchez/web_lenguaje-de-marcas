@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Taller de coches</title>
+        <link>https://icsanchez.github.io/web_lenguaje-de-marcas/</link>
+        <description>Ultimo Catalogo de coches.</description>
+        <language>es-es</language>
+        <lastBuildDate>Tue, 22 May 2025 10:00:00 GMT</lastBuildDate>
+
+        <item>
+            <title>Nueva versión de coches</title>
+            <link>https://www.caranddriver.com/es/coches/</link>
+            <description>Hemos actualizado los nuevos coches que han salido al mercado.</description>
+            <pubDate>Tue, 22 May 2025 09:30:00 GMT</pubDate>
+            <guid>https://www.coches.net/noticias/</guid>
+        </item>
+        <item>
+            <title>Mantenimiento de coches</title>
+            <link>https://motor.flexicar.es/mantenimiento-del-coche-y-mecanica/mantenimiento-habitual-coche/</link>
+            <description>Se tiene que hacer un mantenimiento a tu coche para que sea seguro y dure el mas tiempo posible.</description>
+            <pubDate>Tue, 22 May 2025 09:00:00 GMT</pubDate>
+            <guid>https://www.instalauto.es/mantenimiento-de-coches/</guid>
+        </item>
+    </channel>
+</rss>
