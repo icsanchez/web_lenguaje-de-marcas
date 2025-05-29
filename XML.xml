@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<inventario>
+    <coche id="PC001">
+        <modelo>Mercedes</modelo>
+        <usuario>Iván Sánchez</usuario>
+        <año>2017</año>
+    </ordenador>
+    <ordenador id="PC002">
+        <modelo>Audi</modelo>
+        <usuario>Iván Sánchez</usuario>
+        <año>2022</año>
+    </ordenador>
+</inventario>
