@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogo.xsl"?>
+<catalogo>
+  <producto>
+    <nombre>Mercedes a 200</nombre>
+    <precio>18.000</precio>
+  </producto>
+  <producto>
+    <nombre>Porsche 911</nombre>
+    <precio>32.000</precio>
+  </producto>
+    <producto>
+    <nombre>Audi RS3</nombre>
+    <precio>52.000</precio>
+  </producto>
+  <producto>
+    <nombre>BMW M4</nombre>
+    <precio>120.000</precio>
+  </producto>
+</catalogo>
