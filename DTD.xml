@@ -1,0 +1,8 @@
+<!ELEMENT inventario (ordenador+)>
+
+<!ELEMENT ordenador (ubicacion, usuario, sistemaOperativo)>
+<!ATTLIST ordenador id ID #REQUIRED>
+
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT sistemaOperativo (#PCDATA)>
